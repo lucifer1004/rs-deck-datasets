@@ -1,7 +1,7 @@
 {
-  "private": true,
+  "name": "rs-deck-datasets",
   "version": "1.0.0",
-  "description": "Deck created with mdx-deck",
+  "description": "A deck on remote sensing datasets.",
   "scripts": {
     "start": "mdx-deck deck.mdx",
     "build": "mdx-deck build deck.mdx",
@@ -10,10 +10,9 @@
     "help": "mdx-deck"
   },
   "keywords": [],
-  "author": "Brent Jackson",
+  "author": "Gabriel Wu <wuzihua@pku.edu.cn>",
   "license": "MIT",
   "devDependencies": {
-    "mdx-deck": "^1.6.7"
-  },
-  "name": "my-pre"
+    "mdx-deck": "^1.8.2"
+  }
 }

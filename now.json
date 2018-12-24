@@ -1,0 +1,8 @@
+{
+  "name": "rs-deck-datasets",
+  "alias": "rs-deck-datasets.gabriel-wu.com",
+  "version": 2,
+  "builds": [
+    { "src": "index.mdx", "use": "@now/mdx-deck" }
+  ]
+}
