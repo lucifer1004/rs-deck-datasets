@@ -15,7 +15,8 @@ export default {
   //   'text-decoration': 'unset',
   // },
   heading: {
-    padding: '10px',
+    padding: '1%',
+    margin: '5%',
     'background-color': '#f8b862',
     'box-shadow': '0 0 16px rgba(0, 0, 0, .2)',
     'text-shadow': '2px 3px rgba(0, 0, 0, .2)',
@@ -43,6 +44,7 @@ export default {
   },
   li: {
     fontSize: '0.5em',
+    margin: '5%',
     'word-wrap': 'break-word',
     // 'background-color': 'cyan',
     '&:hover': {
@@ -54,13 +56,13 @@ export default {
     'text-align': 'left',
     'text-decoration': 'unset',
     '&:hover': {
-      'color': '#83ccd2',
+      color: '#83ccd2',
     },
     '&:active': {
-      'color': '#eaf4fc',
+      color: '#eaf4fc',
     },
   },
   img: {
-    padding: '20px', 
+    padding: '20px',
   },
 }
