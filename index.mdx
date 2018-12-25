@@ -1,4 +1,5 @@
 import {Head} from 'mdx-deck'
+import { SplitRight } from 'mdx-deck/layouts'
 
 export {default as theme} from './theme'
 
@@ -8,13 +9,15 @@ export {default as theme} from './theme'
 
 # Useful datasets
 
+Presenter: Gabriel Wu < <wuzihua@pku.edu.cn> >
+
 ---
 
 ## Contents
 
-- [FEWS NET Data Center](http://fews.net/fews-data/333)
-- [Global SPEI database](http://spei.csic.es/database.html)
-- [NIDIS Data, Maps & Tools](https://www.drought.gov/drought/data-maps-tools)
+### I. Datasets
+
+### II. How can we use these data?
 
 ```notes
 - Create speaker notes in fenced code blocks
@@ -22,19 +25,75 @@ export {default as theme} from './theme'
 
 ---
 
-## FEWS NET Data Center
+## I. Datasets
+
+### I.1 [FEWS NET Data Center](http://fews.net/fews-data/333)
+### I.2 [Global SPEI database](http://spei.csic.es/database.html)
+### I.3 [NIDIS Data, Maps & Tools](https://www.drought.gov/drought/data-maps-tools)
 
 ---
 
-## Global SPEI database
+export default SplitRight
 
-- Link: <http://spei.csic.es/database.html>
+![Interface](./static/fews.png)
+
+### I.1 FEWS NET Data Center
+
+- <http://fews.net/fews-data/333>
+- Food Security Classfication
+- Administrative Boundaries
+- Livelihood Zones
+- Remote Sensing Imagery
+- Price and Cross-Border Trade
+
+---
+
+### I.1.A Remote Sensing Imagery
+
+- USGS FEWS NET Data Portal
+- NOAA Climate Prediction Center Data Portal
+- Climate Hazard Group (CHG) Portal
+- Climate Engine
+
+---
+
+export default SplitRight
+
+![Interface](./static/spei.gif)
+
+### I.2 Global SPEI database
+
+- <http://spei.csic.es/database.html>
 - Time scale: 1-month to 48-month
 - Time range: 1901--2015 (Downloadable) / 1955--2018 (Online)
 - Spatial resolution: 0.5 degree
 - Format: NetCDF
 
-![Interface](./static/spei.gif)
 ---
 
-## NIDIS Data, Maps & Tools
+export default SplitRight
+
+![Interface](./static/nidis.png)
+
+### I.3 NIDIS Data, Maps & Tools
+
+- <https://www.drought.gov/drought/data-maps-tools>
+- Categories: Current conditions / Outlooks & Forecasts / Impacts / Soil moisture / Vegetation / Fire / Temperature & Precipitation / Agriculture / Water Supply / Paleoclimate / Snow Drought
+- Insight (taking 'Current conditions' as an example): USDM / PDSI / Drought Change / Drought Outlook
+
+---
+
+## II. How can we use these data?
+
+### II.1 Drought
+### II.2 Others
+
+---
+
+### II.1 Drought
+
+- To validate new indices or approaches
+
+---
+
+### II.2 Others

@@ -15,9 +15,11 @@ export default {
   //   'text-decoration': 'unset',
   // },
   heading: {
+    padding: '10px',
     'background-color': '#f8b862',
     'box-shadow': '0 0 16px rgba(0, 0, 0, .2)',
     'text-shadow': '2px 3px rgba(0, 0, 0, .2)',
+    'border-radius': '10px',
     '&:hover': {
       color: '#59b9c6',
     },
@@ -40,6 +42,8 @@ export default {
     // 'list-style-type': 'none',
   },
   li: {
+    fontSize: '0.5em',
+    'word-wrap': 'break-word',
     // 'background-color': 'cyan',
     '&:hover': {
       // 'padding': '100 100 100 100',
@@ -55,5 +59,8 @@ export default {
     '&:active': {
       'color': '#eaf4fc',
     },
+  },
+  img: {
+    padding: '20px', 
   },
 }
