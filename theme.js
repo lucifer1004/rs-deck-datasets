@@ -16,7 +16,7 @@ export default {
   // },
   heading: {
     padding: '1%',
-    margin: '5%',
+    margin: '2%',
     'background-color': '#f8b862',
     'box-shadow': '0 0 16px rgba(0, 0, 0, .2)',
     'text-shadow': '2px 3px rgba(0, 0, 0, .2)',
@@ -33,9 +33,9 @@ export default {
     },
   },
   h2: {
-    fontSize: '3em',
+    fontSize: '2em',
     '&:hover': {
-      fontSize: '3.1em',
+      fontSize: '2.1em',
     },
   },
   ul: {
